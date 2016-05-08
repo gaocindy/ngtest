@@ -1,0 +1,16 @@
+<table border="1">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Gender</th>
+        <th>Job</th>
+        <th>Introduction</th>
+    </tr>
+    <tr ng-repeat="user in users">
+        <td ng-bind="user.firstName"></td>
+        <td ng-bind="user.lastName"></td>
+        <td ng-bind="user.gender | genderFilter : user"></td>
+        <td ng-bind="user.occupation"></td>
+        <td ng-bind="user.introduction"></td>
+    </tr>
+</table>

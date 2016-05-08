@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "totalCount": 3,
+  "users": [
+    {
+      "id": 0,
+      "firstName": "Tom",
+      "lastName": "Zhang",
+      "gender": "M",
+      "occupation": 0,
+      "introduction": "lalala"
+    },
+    {
+      "id": 1,
+      "firstName": "Maria",
+      "lastName": "Sun",
+      "gender": "F",
+      "occupation": 2,
+      "introduction": "dadada"
+    },
+    {
+      "id": 2,
+      "firstName": "Mike",
+      "lastName": "Li",
+      "gender": "M",
+      "occupation": 1,
+      "introduction": "hahaha"
+    }
+  ]
+}
